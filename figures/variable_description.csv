@@ -1,0 +1,14 @@
+variable,role,type,description
+treatment,Treatment,Binary,"1 if heavier twin in the pair, 0 if lighter"
+outcome,Outcome,Binary,"1 if death in first year, 0 otherwise"
+gestat10,Confounder,Ordinal,The number of gestational weeks prior to birth binned into 10 ordered categories (higher = longer gestation)
+"tobacco, alcohol",Exposure (subgroup),Binary,Maternal prenatal substance use during pregnancy. Combined into a single 'any exposure' indicator for subgroup analysis.
+"Maternal demographics (mager8, mrace, meduc6, dmar, mplbir, ormoth)",Covariate,Mixed,"Mother's age, race, education, marital status, place of birth, and origin"
+"Paternal demographics (orfath, frace, feduc6, dfageq)",Covariate,Mixed,"Father's age, race, education, and origin"
+"Maternal health conditions (anemia, cardiac, lung, diabetes, herpes, hydra, hemo, chyper, phyper, eclamp, incervix, pre4000, preterm, renal, rh, uterine, othermr)",Covariate,Binary,Health condition indicators and complications during pregnancy
+"Prenatal care (mpre5, adequacy, nprevistq)",Covariate,Mixed,"Month prenatal care began, adequacy of care, and number of prenatal visits"
+"Birth circumstances (pldel, birattnd, birmon, csex, crace)",Covariate,Mixed,"Place of delivery, birth attendant, month of birth, infant sex, and race"
+"Geographic (brstate, stoccfipb, brstate_reg, stoccfipb_reg, mplbir_reg)",Covariate,Categorical,State and regional identifiers
+"Substance use intensity (cigar6, drink5)",Covariate,Ordinal,Cigarettes per day and drinks per week
+"Infant variables (infant_id, bord, dlivord_min, dtotord_min)",Covariate,Mixed,"Infant identifier, birth order, and birth order minimums"
+Other (data_year),Covariate,Integer,Year of birth record
