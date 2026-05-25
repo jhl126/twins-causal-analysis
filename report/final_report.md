@@ -29,6 +29,8 @@ The report proceeds as follows:
 5. Conclusion and Future Work synthesizes findings and discusses limitations
 6. Link to the Code Repository
 
+The key findings are as follows. Being the heavier twin reduces first-year mortality by approximately 2.6 percentage points, a result that is robust across four estimation methods and three refutation tests. The effect is statistically significant, with a 95% confidence interval of [-0.0329, -0.0189]. No statistically detectable evidence was found that prenatal substance exposure modifies this effect.
+
 ## 2. Exploratory Data Analysis
 
 ### 2.1 Data Source
