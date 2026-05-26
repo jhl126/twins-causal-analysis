@@ -37,7 +37,7 @@ This project uses `uv` for environment management.
 
 ```bash
 # Clone the repository
-git clone <YOUR_REPO_URL>
+git clone https://github.com/jhl126/twins-causal-analysis
 cd twins-causal-analysis
 
 # Create the environment and install dependencies
